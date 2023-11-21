@@ -24,7 +24,7 @@ async function getUser() {
     const ages = now.getFullYear() - data.date_of_birth.split("-")[0];
     sample.innerHTML = `Real user info`;
     id.innerHTML = `${data.id}`;
-    fullName.innerHTML = `${data.first_name + data.last_name}`;
+    fullName.innerHTML = `${data.first_name} ${data.last_name}`;
     userName.innerHTML = `${data.username}`;
     birth.innerHTML = `${data.date_of_birth}`;
     country.innerHTML = `${data.address.country}`;
